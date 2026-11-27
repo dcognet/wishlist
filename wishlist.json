@@ -31,12 +31,30 @@
     },
     {
       "name": "Short de tennis Nike Court Dri-FIT Advantage 8in",
-      "note": "Bleu foncé / blanc",
+      "note": "Bleu foncé / blanc, taille S",
       "price": 39.95,
       "priority": 2,
       "url": "https://www.tennis-point.fr/products/nike-court-dri-fit-advantage-8in-shorts-hommes-bleu-fonceblanc-00447558707000?variant=43969459814442",
       "image": "https://www.tennis-point.fr/cdn/shop/files/0044755870700000.jpg?v=1774904566&width=800",
       "emoji": "🩳"
+    },
+    {
+      "name": "T-shirt de tennis Nike Court Dri-FIT Advantage",
+      "note": "Blanc / noir, taille S",
+      "price": 43,
+      "priority": 2,
+      "url": "https://www.tennis-point.fr/products/nike-court-dri-fit-advantage-t-shirt-hommes-blancnoir-00447558682000?variant=43969729626154",
+      "image": "https://www.tennis-point.fr/cdn/shop/files/0044755868200000.jpg?v=1795159708&width=800",
+      "emoji": "👕"
+    },
+    {
+      "name": "T-shirt de tennis Nike Court Dry Victory",
+      "note": "Blanc / noir, taille S",
+      "price": 26,
+      "priority": 2,
+      "url": "https://www.tennis-point.fr/products/nike-court-dry-victory-t-shirt-hommes-blancnoir-00447558690000?variant=43969767473194",
+      "image": "https://www.tennis-point.fr/cdn/shop/files/0044755869000000.jpg?v=1792454078&width=800",
+      "emoji": "👕"
     }
   ]
 }
