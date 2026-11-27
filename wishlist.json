@@ -1,0 +1,33 @@
+{
+  "owner": "Damien",
+  "message": "Merci d'avance, et joyeux Noël ! 🎄",
+  "items": [
+    {
+      "name": "Casque audio sans fil",
+      "note": "Avec réduction de bruit, noir de préférence",
+      "price": 199,
+      "priority": 1,
+      "url": "https://www.example.com/casque",
+      "image": "",
+      "emoji": "🎧"
+    },
+    {
+      "name": "Livre de cuisine italienne",
+      "note": "N'importe quelle édition",
+      "price": 29,
+      "priority": 2,
+      "url": "https://www.example.com/livre",
+      "image": "",
+      "emoji": "📖"
+    },
+    {
+      "name": "Plaid tout doux",
+      "note": "Couleur vert sapin ou gris",
+      "price": 45,
+      "priority": 3,
+      "url": "",
+      "image": "",
+      "emoji": "🧣"
+    }
+  ]
+}

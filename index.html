@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma liste de Noël</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎄</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --pine: #1d3a2a;
+      --pine-deep: #122619;
+      --cream: #fbf6ec;
+      --paper: #ffffff;
+      --ink: #1f2420;
+      --muted: #6b7068;
+      --red: #b3332b;
+      --gold: #c9a24a;
+      --line: #ece4d3;
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, sans-serif;
+      color: var(--ink);
+      background: var(--cream);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      position: relative;
+      overflow: hidden;
+      padding: 72px 16px 96px;
+      text-align: center;
+      color: var(--cream);
+      background:
+        radial-gradient(ellipse at 50% -20%, rgba(201, 162, 74, .35), transparent 60%),
+        linear-gradient(180deg, var(--pine-deep), var(--pine));
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      left: 0; right: 0; bottom: -1px;
+      height: 48px;
+      background: var(--cream);
+      clip-path: ellipse(70% 100% at 50% 100%);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 700;
+      font-size: clamp(36px, 7vw, 64px);
+      line-height: 1.05;
+    }
+
+    .countdown {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      margin-top: 24px;
+      padding: 8px 18px;
+      border: 1px solid rgba(251, 246, 236, .25);
+      border-radius: 999px;
+      font-size: 15px;
+      background: rgba(255, 255, 255, .06);
+    }
+
+    .countdown strong { color: var(--gold); font-size: 18px; }
+
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 8px 16px 64px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 8px 24px rgba(29, 58, 42, .06);
+      transition: transform .25s ease, box-shadow .25s ease;
+      animation: rise .5s ease both;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .05), 0 16px 40px rgba(29, 58, 42, .12);
+    }
+
+    .visual {
+      display: grid;
+      place-items: center;
+      aspect-ratio: 4 / 3;
+      background: linear-gradient(135deg, #f6efe0, #efe5d0);
+      font-size: 72px;
+    }
+
+    .visual img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 16px;
+    }
+
+    .badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #fff;
+      background: var(--pine);
+    }
+
+    .badge.p1 { background: var(--red); }
+    .badge.p3 { background: var(--muted); }
+
+    .body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      gap: 8px;
+      padding: 20px;
+    }
+
+    .body h2 {
+      margin: 0;
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    .note {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 52px;
+      margin-top: auto;
+      padding-top: 12px;
+    }
+
+    .price {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--pine);
+    }
+
+    .btn {
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      color: var(--cream);
+      background: var(--pine);
+      transition: background .2s ease;
+    }
+
+    .btn:hover { background: var(--red); }
+
+    .closing {
+      margin: 56px 0 0;
+      text-align: center;
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 22px;
+      color: var(--pine);
+    }
+
+    .error {
+      padding: 24px;
+      text-align: center;
+      color: var(--red);
+    }
+
+    .snow {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .flake {
+      position: absolute;
+      top: -10px;
+      color: rgba(255, 255, 255, .8);
+      animation: fall linear infinite;
+    }
+
+    @keyframes fall {
+      to { transform: translateY(420px) translateX(30px); opacity: 0; }
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(12px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .flake { display: none; }
+      .card { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="snow" aria-hidden="true"></div>
+    <p class="eyebrow" id="eyebrow">Noël</p>
+    <h1 id="title">Ma liste de Noël</h1>
+    <div class="countdown" id="countdown" hidden></div>
+  </header>
+
+  <main>
+    <div class="grid" id="grid"></div>
+    <p class="closing" id="message"></p>
+  </main>
+
+  <script>
+    const PRIORITY_LABELS = { 1: "Coup de cœur", 2: "J'adorerais", 3: "Petit bonus" };
+
+    function escapeHtml(value) {
+      const div = document.createElement("div");
+      div.textContent = value ?? "";
+      return div.innerHTML;
+    }
+
+    function formatPrice(price) {
+      if (price == null || price === "") return "";
+      return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(price);
+    }
+
+    function renderCard(item, index) {
+      const priority = item.priority || 2;
+      const visual = item.image
+        ? `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.name)}" loading="lazy">`
+        : `<span aria-hidden="true">${escapeHtml(item.emoji || "🎁")}</span>`;
+      const link = item.url
+        ? `<a class="btn" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">Voir l'article</a>`
+        : "";
+
+      return `
+        <article class="card" style="animation-delay:${index * 80}ms">
+          <div class="visual">${visual}</div>
+          <span class="badge p${priority}">${PRIORITY_LABELS[priority] || ""}</span>
+          <div class="body">
+            <h2>${escapeHtml(item.name)}</h2>
+            ${item.note ? `<p class="note">${escapeHtml(item.note)}</p>` : ""}
+            <div class="footer">
+              <span class="price">${formatPrice(item.price)}</span>
+              ${link}
+            </div>
+          </div>
+        </article>`;
+    }
+
+    function renderCountdown() {
+      const now = new Date();
+      let christmas = new Date(now.getFullYear(), 11, 25);
+      if (now > new Date(now.getFullYear(), 11, 26)) christmas = new Date(now.getFullYear() + 1, 11, 25);
+      const days = Math.ceil((christmas - now) / 86400000);
+      document.getElementById("eyebrow").textContent = `Noël ${christmas.getFullYear()}`;
+      const el = document.getElementById("countdown");
+      el.innerHTML = days > 0
+        ? `🎅 Plus que <strong>${days}</strong> jour${days > 1 ? "s" : ""} avant Noël`
+        : "🎄 Joyeux Noël !";
+      el.hidden = false;
+    }
+
+    function renderSnow() {
+      const snow = document.querySelector(".snow");
+      for (let i = 0; i < 40; i++) {
+        const flake = document.createElement("span");
+        flake.className = "flake";
+        flake.textContent = "❄";
+        flake.style.left = `${Math.random() * 100}%`;
+        flake.style.fontSize = `${8 + Math.random() * 12}px`;
+        flake.style.animationDuration = `${6 + Math.random() * 8}s`;
+        flake.style.animationDelay = `${-Math.random() * 10}s`;
+        snow.appendChild(flake);
+      }
+    }
+
+    async function init() {
+      renderCountdown();
+      renderSnow();
+      try {
+        const response = await fetch("wishlist.json", { cache: "no-store" });
+        const data = await response.json();
+        if (data.owner) {
+          document.getElementById("title").textContent = `La liste de ${data.owner}`;
+          document.title = `La liste de Noël de ${data.owner}`;
+        }
+        const items = [...data.items].sort((a, b) => (a.priority || 2) - (b.priority || 2));
+        document.getElementById("grid").innerHTML = items.map(renderCard).join("");
+        document.getElementById("message").textContent = data.message || "";
+      } catch (e) {
+        document.getElementById("grid").innerHTML =
+          '<p class="error">Impossible de charger la liste. En local, lance <code>python3 -m http.server</code>.</p>';
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
