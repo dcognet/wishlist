@@ -126,6 +126,15 @@
       "url": "https://www.boulanger.com/ref/1234149",
       "image": "https://boulanger.scene7.com/is/image/Boulanger/4548736172180_h_f_l_0?wid=800&hei=800&fit=constrain&resMode=sharp2&op_usm=1.75%2C0.3%2C2%2C0&fmt=webp-alpha&qlt=80",
       "emoji": "🎶"
+    },
+    {
+      "name": "Pot cylindre en terre cuite",
+      "note": "33 × 27 cm",
+      "price": 43,
+      "priority": 2,
+      "url": "https://www.truffaut.com/pot-cylindre-en-terre-cuite-33-27-cm-739299.html",
+      "image": "https://images.truffaut.com/media/catalog/productcdn:///Articles/jpg/0739000/739299_002.jpg?width=700&height=700&store=fr&image-type=image",
+      "emoji": "🪴"
     }
   ]
 }
