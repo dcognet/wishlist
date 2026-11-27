@@ -117,6 +117,15 @@
       "url": "",
       "image": "",
       "emoji": "🌸"
+    },
+    {
+      "name": "Platine vinyle Sony PS-LX5BT",
+      "note": "Noire, Bluetooth, 33 et 45 tours, entraînement par courroie. Je peux participer financièrement !",
+      "price": 300,
+      "priority": 2,
+      "url": "https://www.boulanger.com/ref/1234149",
+      "image": "https://boulanger.scene7.com/is/image/Boulanger/4548736172180_h_f_l_0?wid=800&hei=800&fit=constrain&resMode=sharp2&op_usm=1.75%2C0.3%2C2%2C0&fmt=webp-alpha&qlt=80",
+      "emoji": "🎶"
     }
   ]
 }
