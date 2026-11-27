@@ -55,6 +55,33 @@
       "url": "https://www.tennis-point.fr/products/nike-court-dry-victory-t-shirt-hommes-blancnoir-00447558690000?variant=43969767473194",
       "image": "https://www.tennis-point.fr/cdn/shop/files/0044755869000000.jpg?v=1792454078&width=800",
       "emoji": "👕"
+    },
+    {
+      "name": "Maillot vélo de route Van Rysel RCR-R 2",
+      "note": "Blanc, taille S — ou le coloris Team, au choix",
+      "price": 60,
+      "priority": 2,
+      "url": "https://www.decathlon.fr/p/maillot-manches-courtes-de-velo-de-route-tres-ajuste-unisexe-rcr-r-2-blanc/337652/c227c227m8969588",
+      "image": "https://contents.mediadecathlon.com/p3073054/k$9ab858e48e660555fa87e464e8bac75e/picture.jpg?format=auto&f=800x0",
+      "emoji": "🚴"
+    },
+    {
+      "name": "Maillot vélo de route Van Rysel RCR-R 2",
+      "note": "Coloris Team, taille S — ou le blanc, au choix",
+      "price": 60,
+      "priority": 2,
+      "url": "https://www.decathlon.fr/p/maillot-manches-courtes-de-velo-de-route-tres-ajuste-unisexe-rcr-r-2-team/354514/c227c227m8977554",
+      "image": "https://contents.mediadecathlon.com/p3096378/k$7bc14bb20b373fcaf9f031627ff3e408/picture.jpg?format=auto&f=800x0",
+      "emoji": "🚴"
+    },
+    {
+      "name": "Sacoche de cadre bikepacking ADVT 900",
+      "note": "Full frame 9 L, étanche IPX3",
+      "price": 69.99,
+      "priority": 2,
+      "url": "https://www.decathlon.fr/p/sacoche-de-cadre-bikepacking-full-frame-9l-etanche-ipx3-advt-900/357864/c407m8911941",
+      "image": "https://contents.mediadecathlon.com/p2885591/k$eaba5dd274bd3d04d1f515d6925174f8/picture.jpg?format=auto&f=800x0",
+      "emoji": "👜"
     }
   ]
 }
