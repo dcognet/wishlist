@@ -138,12 +138,21 @@
     },
     {
       "name": "God of War Laufey",
-      "note": "Jeu PS5",
+      "note": "Jeu PS5, en précommande (pas encore sorti, à offrir en bon pour le jour de sa sortie)",
       "price": 62,
       "priority": 2,
       "url": "https://www.cdiscount.com/jeux-pc-video-console/ps5/god-of-war-laufey-jeu-ps5/f-1035002-gowlaufeyps5.html",
       "image": "https://www.cdiscount.com/pdt2/p/s/5/1/700x700/gowlaufeyps5/rw/god-of-war-laufey-jeu-ps5.jpg",
       "emoji": "🎮"
+    },
+    {
+      "name": "Un chat Ragdoll",
+      "note": "",
+      "price": 1000,
+      "priority": 2,
+      "url": "",
+      "image": "",
+      "emoji": "🐈"
     }
   ]
 }
