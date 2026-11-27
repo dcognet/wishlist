@@ -90,6 +90,15 @@
       "url": "https://www.amazon.fr/dp/B00MNBQ742",
       "image": "https://m.media-amazon.com/images/I/71O84i1ENfL._AC_SX679_.jpg",
       "emoji": "🥣"
+    },
+    {
+      "name": "Vinyle Grand Theft Auto VI – The Album",
+      "note": "Édition limitée exclusivité Fnac, vinyles marbrés rose/blanc et bleu/blanc",
+      "price": 41,
+      "priority": 2,
+      "url": "https://www.fnac.com/a23652922/Collectif-Grand-Theft-Auto-VI-The-Album-Edition-Limitee-Exclusivite-Fnac-Vinyle-Rose-et-Blanc-Marbre-Bleu-et-Blanc-Marbre-Vinyle-album",
+      "image": "https://static.fnac-static.com/multimedia/Images/FR/NR/91/63/3e/20865937/1540-1/tsp20260917150045/Grand-Theft-Auto-VI-The-Album-Edition-Limitee-Exclusivite-Fnac-Vinyle-Vinyle-Rose-et-Blanc-Marbre-Bleu-et-Blanc-Marbre.jpg",
+      "emoji": "💿"
     }
   ]
 }
