@@ -5,7 +5,7 @@
     {
       "name": "Sac à dos Faguo Commuter 20",
       "note": "Bleu grisé, en polyester recyclé",
-      "price": "",
+      "price": 120,
       "priority": 2,
       "url": "https://www.faguo-store.com/products/sac-a-dos-bleu-grise-polyester-recycle-modele-commuter-20?variant=61387172839754",
       "image": "https://www.faguo-store.com/cdn/shop/files/S26LU0902-BLU04_P1_f36b4c76-6903-4a5f-859e-a010b75db692.jpg?v=1795515640&width=800",
@@ -14,7 +14,7 @@
     {
       "name": "Sweat Faguo Donzy",
       "note": "Bleu, en coton, taille M",
-      "price": "",
+      "price": 90,
       "priority": 2,
       "url": "https://www.faguo-store.com/products/sweat-bleu-coton-modele-donzy?variant=62752868008266",
       "image": "https://www.faguo-store.com/cdn/shop/files/S26SW0107-BLU00_S3_505cc799-a00f-45a7-9b0d-b309cc8c8f56.jpg?v=1795540156&width=800",
@@ -23,11 +23,20 @@
     {
       "name": "Sweat à capuche Faguo Dirac",
       "note": "Rose foncé, en coton recyclé, taille M",
-      "price": "",
+      "price": 80,
       "priority": 2,
       "url": "https://www.faguo-store.com/products/sweats-a-capuche-rose-fonce-coton-recycle-modele-dirac?variant=61760940933450",
       "image": "https://www.faguo-store.com/cdn/shop/files/F26SW0109-PIN02_S3_7afa545a-ebad-43f0-84ab-0402aab86137.jpg?v=1784186556&width=800",
       "emoji": "🧥"
+    },
+    {
+      "name": "Short de tennis Nike Court Dri-FIT Advantage 8in",
+      "note": "Bleu foncé / blanc",
+      "price": 39.95,
+      "priority": 2,
+      "url": "https://www.tennis-point.fr/products/nike-court-dri-fit-advantage-8in-shorts-hommes-bleu-fonceblanc-00447558707000?variant=43969459814442",
+      "image": "https://www.tennis-point.fr/cdn/shop/files/0044755870700000.jpg?v=1774904566&width=800",
+      "emoji": "🩳"
     }
   ]
 }

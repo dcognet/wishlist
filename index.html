@@ -261,7 +261,7 @@
 
     function formatPrice(price) {
       if (price == null || price === "") return "";
-      return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(price);
+      return new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(price);
     }
 
     function renderCard(item, index) {
