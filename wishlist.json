@@ -108,6 +108,15 @@
       "url": "",
       "image": "",
       "emoji": "👔"
+    },
+    {
+      "name": "Un nouveau parfum",
+      "note": "Au choix, laissez-vous inspirer",
+      "price": "",
+      "priority": 2,
+      "url": "",
+      "image": "",
+      "emoji": "🌸"
     }
   ]
 }
