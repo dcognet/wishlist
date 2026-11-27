@@ -3,31 +3,31 @@
   "message": "Merci d'avance, et joyeux Noël ! 🎄",
   "items": [
     {
-      "name": "Casque audio sans fil",
-      "note": "Avec réduction de bruit, noir de préférence",
-      "price": 199,
-      "priority": 1,
-      "url": "https://www.example.com/casque",
-      "image": "",
-      "emoji": "🎧"
-    },
-    {
-      "name": "Livre de cuisine italienne",
-      "note": "N'importe quelle édition",
-      "price": 29,
+      "name": "Sac à dos Faguo Commuter 20",
+      "note": "Bleu grisé, en polyester recyclé",
+      "price": "",
       "priority": 2,
-      "url": "https://www.example.com/livre",
+      "url": "https://www.faguo-store.com/products/sac-a-dos-bleu-grise-polyester-recycle-modele-commuter-20?variant=61387172839754",
       "image": "",
-      "emoji": "📖"
+      "emoji": "🎒"
     },
     {
-      "name": "Plaid tout doux",
-      "note": "Couleur vert sapin ou gris",
-      "price": 45,
-      "priority": 3,
-      "url": "",
+      "name": "Sweat Faguo Donzy",
+      "note": "Bleu, en coton, taille M",
+      "price": "",
+      "priority": 2,
+      "url": "https://www.faguo-store.com/products/sweat-bleu-coton-modele-donzy?variant=62752868008266",
       "image": "",
-      "emoji": "🧣"
+      "emoji": "👕"
+    },
+    {
+      "name": "Sweat à capuche Faguo Dirac",
+      "note": "Rose foncé, en coton recyclé, taille M",
+      "price": "",
+      "priority": 2,
+      "url": "https://www.faguo-store.com/products/sweats-a-capuche-rose-fonce-coton-recycle-modele-dirac?variant=61760940933450",
+      "image": "",
+      "emoji": "🧥"
     }
   ]
 }
